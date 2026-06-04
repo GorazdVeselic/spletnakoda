@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Spletna koda">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16203a"/>
+      <stop offset="1" stop-color="#0a0e16"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="16" y1="18" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6ea8fe"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#brand)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ] right bracket -->
+    <path d="M19 18 H26 V46 H19"/>
+    <!-- { left brace -->
+    <path d="M45 18 C40 18 40 22 40 27 C40 31 38 32 35 32 C38 32 40 33 40 37 C40 42 40 46 45 46"/>
+  </g>
+</svg>
