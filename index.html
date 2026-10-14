@@ -17,11 +17,186 @@
 <meta property="og:site_name" content="Spletna koda">
 <meta property="og:locale" content="sl_SI">
 <meta property="og:locale:alternate" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:image:alt" content="Spletna koda">
+<meta name="twitter:card" content="summary">
+<meta name="author" content="Gorazd Veselič">
 <meta name="theme-color" content="#0a0e16">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://spletnakoda.si/#website",
+   "url": "https://spletnakoda.si/",
+   "name": "Spletna koda",
+   "inLanguage": [
+    "sl",
+    "en"
+   ],
+   "publisher": {
+    "@id": "https://spletnakoda.si/#business"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://spletnakoda.si/#gorazd",
+   "name": "Gorazd Veselič",
+   "jobTitle": "Višji full-stack / DevOps inženir",
+   "email": "mailto:gorazd@spletnakoda.si",
+   "url": "https://spletnakoda.si/",
+   "worksFor": {
+    "@id": "https://spletnakoda.si/#business"
+   },
+   "sameAs": [
+    "https://github.com/GorazdVeselic"
+   ],
+   "knowsAbout": [
+    "PHP",
+    "Laravel",
+    "MySQL",
+    "Redis",
+    "REST API",
+    "B2B integration",
+    "Microservices",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Terraform",
+    "CI/CD",
+    "Linux",
+    "Vue",
+    "Next.js",
+    "DevOps"
+   ]
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://spletnakoda.si/#business",
+   "name": "Spletna koda",
+   "url": "https://spletnakoda.si/",
+   "logo": "https://spletnakoda.si/icon-512.png",
+   "image": "https://spletnakoda.si/spletnaKoda.png",
+   "email": "gorazd@spletnakoda.si",
+   "founder": {
+    "@id": "https://spletnakoda.si/#gorazd"
+   },
+   "areaServed": "SI",
+   "availableLanguage": [
+    "sl",
+    "en"
+   ],
+   "description": "Spletna koda (Gorazd Veselič) – backend arhitekture, API in B2B integracije, mikrostoritve ter oblačne infrastrukture (AWS, Docker, Kubernetes) z več kot 20 leti izkušenj.",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Storitve",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "API & integracije",
+       "description": "REST API, B2B povezovanje zunanjih sistemov, mikrostoritve in avtomatizacija procesov."
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Oblak & DevOps",
+       "description": "AWS infrastruktura, Docker, Kubernetes, CI/CD in Terraform (IaC)."
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Razvoj & gostovanje",
+       "description": "Spletne aplikacije v Laravel/PHP, optimizacija baz ter stabilno gostovanje in vzdrževanje."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://spletnakoda.si/#webpage",
+   "url": "https://spletnakoda.si/",
+   "name": "Spletna koda – Inovativne spletne rešitve",
+   "inLanguage": "sl",
+   "isPartOf": {
+    "@id": "https://spletnakoda.si/#website"
+   },
+   "about": {
+    "@id": "https://spletnakoda.si/#business"
+   },
+   "mainEntity": {
+    "@id": "https://spletnakoda.si/#faq"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://spletnakoda.si/#faq",
+   "inLanguage": "sl",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Kaj je Spletna koda?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Spletna koda je samostojna razvojna praksa Gorazda Veseliča, višjega full-stack / DevOps inženirja z več kot 20 leti izkušenj. Ukvarja se z backend arhitekturo, API in B2B integracijami ter oblačno infrastrukturo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Ali lahko povežete naš sistem z zunanjimi sistemi?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Da. Načrtujem in razvijam REST API-je, B2B povezave z zunanjimi sistemi (npr. ERP, spletne trgovine, dobavitelji) in mikrostoritve, ki avtomatizirajo poslovne procese in odpravijo ročno prepisovanje podatkov."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Ali pomagate pri prehodu v oblak in DevOps?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Da. Postavim in vzdržujem infrastrukturo na AWS, aplikacije zapakiram v Docker in jih poganjam na Kubernetesu, infrastrukturo opišem kot kodo s Terraformom ter uvedem CI/CD za avtomatske in ponovljive objave."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "S katerimi tehnologijami delate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Backend: PHP, Laravel, MySQL, Redis in REST API. Infrastruktura: Docker, Kubernetes, AWS, Terraform, CI/CD in Linux. Frontend: Vue in Next.js."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Ali prevzamete tudi obstoječo aplikacijo v vzdrževanje?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Da. Prevzamem obstoječe Laravel/PHP aplikacije, optimiziram počasne podatkovne baze, uredim stabilno gostovanje in skrbim za tekoče vzdrževanje."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kako začnemo sodelovanje?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pišite na gorazd@spletnakoda.si in na kratko opišite projekt ali težavo. Komuniciram v slovenščini in angleščini."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
 
@@ -32,6 +207,7 @@
       <a href="#storitve">Storitve</a>
       <a href="#tehnologije">Tehnologije</a>
       <a href="#omeni">O meni</a>
+      <a href="#vprasanja">Vprašanja</a>
       <a href="#kontakt">Kontakt</a>
     </div>
     <div class="lang" aria-label="Jezik / Language">
@@ -81,6 +257,19 @@
   <div class="about">
     <div class="big">20+<small>let izkušenj</small></div>
     <p>Višji full-stack / DevOps inženir. Že več kot 20 let razvijam kompleksne spletne aplikacije s poudarkom na backend arhitekturi in integraciji z zunanjimi sistemi. V zadnjem obdobju sem programersko osnovo nadgradil z DevOps praksami in upravljanjem oblačnih infrastruktur — moja prioriteta ostaja optimizacija poslovnih procesov ter stabilna, avtomatizirana in skalabilna okolja.</p>
+  </div>
+</div></section>
+
+<section id="vprasanja"><div class="wrap">
+  <div class="label">Pogosta vprašanja</div>
+  <h2 class="title">Pogosta vprašanja</h2>
+  <div class="faq">
+    <details class="qa"><summary>Kaj je Spletna koda?</summary><p>Spletna koda je samostojna razvojna praksa Gorazda Veseliča, višjega full-stack / DevOps inženirja z več kot 20 leti izkušenj. Ukvarja se z backend arhitekturo, API in B2B integracijami ter oblačno infrastrukturo.</p></details>
+    <details class="qa"><summary>Ali lahko povežete naš sistem z zunanjimi sistemi?</summary><p>Da. Načrtujem in razvijam REST API-je, B2B povezave z zunanjimi sistemi (npr. ERP, spletne trgovine, dobavitelji) in mikrostoritve, ki avtomatizirajo poslovne procese in odpravijo ročno prepisovanje podatkov.</p></details>
+    <details class="qa"><summary>Ali pomagate pri prehodu v oblak in DevOps?</summary><p>Da. Postavim in vzdržujem infrastrukturo na AWS, aplikacije zapakiram v Docker in jih poganjam na Kubernetesu, infrastrukturo opišem kot kodo s Terraformom ter uvedem CI/CD za avtomatske in ponovljive objave.</p></details>
+    <details class="qa"><summary>S katerimi tehnologijami delate?</summary><p>Backend: PHP, Laravel, MySQL, Redis in REST API. Infrastruktura: Docker, Kubernetes, AWS, Terraform, CI/CD in Linux. Frontend: Vue in Next.js.</p></details>
+    <details class="qa"><summary>Ali prevzamete tudi obstoječo aplikacijo v vzdrževanje?</summary><p>Da. Prevzamem obstoječe Laravel/PHP aplikacije, optimiziram počasne podatkovne baze, uredim stabilno gostovanje in skrbim za tekoče vzdrževanje.</p></details>
+    <details class="qa"><summary>Kako začnemo sodelovanje?</summary><p>Pišite na gorazd@spletnakoda.si in na kratko opišite projekt ali težavo. Komuniciram v slovenščini in angleščini.</p></details>
   </div>
 </div></section>
 

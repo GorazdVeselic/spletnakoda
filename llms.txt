@@ -1,0 +1,24 @@
+# Spletna koda
+
+> Spletna koda is the independent web development practice of Gorazd Veselič, a senior full-stack / DevOps engineer from Slovenia with more than 20 years of experience. It builds backend architectures, REST APIs, B2B integrations, microservices and cloud infrastructure (AWS, Docker, Kubernetes, Terraform). Works in Slovenian and English.
+
+## Services
+
+- **API & integrations**: REST APIs, B2B integration of external systems (ERPs, online shops, suppliers), microservices and business process automation.
+- **Cloud & DevOps**: AWS infrastructure, Docker, Kubernetes, CI/CD pipelines and infrastructure as code with Terraform.
+- **Development & hosting**: Web applications in Laravel/PHP, database optimization, stable hosting and ongoing maintenance of existing applications.
+
+## Tech stack
+
+PHP, Laravel, MySQL, Redis, REST API, Docker, Kubernetes, AWS, Terraform, CI/CD, Linux, Vue, Next.js.
+
+## Contact
+
+- Email: gorazd@spletnakoda.si
+- Person: Gorazd Veselič, senior full-stack / DevOps engineer
+- GitHub: https://github.com/GorazdVeselic
+
+## Pages
+
+- [Spletna koda (Slovenian)](https://spletnakoda.si/): Homepage in Slovenian — services, tech stack, about, FAQ and contact.
+- [Spletna koda (English)](https://spletnakoda.si/en/): Homepage in English — services, tech stack, about, FAQ and contact.
