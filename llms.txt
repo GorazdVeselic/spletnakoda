@@ -12,10 +12,15 @@
 
 PHP, Laravel, MySQL, Redis, REST API, Docker, Kubernetes, AWS, Terraform, CI/CD, Linux, Vue, Next.js.
 
+## Projects
+
+- [Tendask: Garden Journal](https://tendask.com/): Free garden journal app for Android built by Gorazd Veselič — log garden tasks with weather, reminders and history; works offline and syncs across devices. Available on Google Play.
+
 ## Contact
 
 - Email: gorazd@spletnakoda.si
 - Person: Gorazd Veselič, senior full-stack / DevOps engineer
+- LinkedIn: https://www.linkedin.com/in/gorazd-veseli%C4%8D/
 - GitHub: https://github.com/GorazdVeselic
 
 ## Pages

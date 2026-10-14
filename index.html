@@ -54,6 +54,7 @@
     "@id": "https://spletnakoda.si/#business"
    },
    "sameAs": [
+    "https://www.linkedin.com/in/gorazd-veseli%C4%8D/",
     "https://github.com/GorazdVeselic"
    ],
    "knowsAbout": [
@@ -137,6 +138,9 @@
    },
    "mainEntity": {
     "@id": "https://spletnakoda.si/#faq"
+   },
+   "mentions": {
+    "@id": "https://tendask.com/#app"
    }
   },
   {
@@ -144,14 +148,6 @@
    "@id": "https://spletnakoda.si/#faq",
    "inLanguage": "sl",
    "mainEntity": [
-    {
-     "@type": "Question",
-     "name": "Kaj je Spletna koda?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Spletna koda je samostojna razvojna praksa Gorazda Veseliča, višjega full-stack / DevOps inženirja z več kot 20 leti izkušenj. Ukvarja se z backend arhitekturo, API in B2B integracijami ter oblačno infrastrukturo."
-     }
-    },
     {
      "@type": "Question",
      "name": "Ali lahko povežete naš sistem z zunanjimi sistemi?",
@@ -186,6 +182,14 @@
     },
     {
      "@type": "Question",
+     "name": "Ali imate lastne projekte?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Da. Razvil sem Tendask (tendask.com), brezplačen vrtni dnevnik za Android z beleženjem opravil, vremenom, opomniki in sinhronizacijo med napravami. Na voljo je na Google Play."
+     }
+    },
+    {
+     "@type": "Question",
      "name": "Kako začnemo sodelovanje?",
      "acceptedAnswer": {
       "@type": "Answer",
@@ -193,6 +197,24 @@
      }
     }
    ]
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://tendask.com/#app",
+   "name": "Tendask: Garden Journal",
+   "url": "https://tendask.com/sl/",
+   "operatingSystem": "Android",
+   "applicationCategory": "LifestyleApplication",
+   "description": "Brezplačen vrtni dnevnik za Android. Beleženje vrtnih opravil z vremenom, opomniki in zgodovino, deluje brez signala in se sinhronizira med napravami. Na voljo na Google Play.",
+   "installUrl": "https://play.google.com/store/apps/details?id=app.tendask",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+   },
+   "author": {
+    "@id": "https://spletnakoda.si/#gorazd"
+   }
   }
  ]
 }
@@ -207,6 +229,7 @@
       <a href="#storitve">Storitve</a>
       <a href="#tehnologije">Tehnologije</a>
       <a href="#omeni">O meni</a>
+      <a href="#projekti">Projekti</a>
       <a href="#vprasanja">Vprašanja</a>
       <a href="#kontakt">Kontakt</a>
     </div>
@@ -260,15 +283,37 @@
   </div>
 </div></section>
 
+<section id="projekti"><div class="wrap">
+  <div class="label">Projekti</div>
+  <h2 class="title">Moji projekti</h2>
+  <p class="sub">Lastni izdelki, ki jih razvijam in vzdržujem.</p>
+  <a class="project" href="https://tendask.com/sl/" target="_blank" rel="noopener">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+    <div>
+      <h3>Tendask: Garden Journal</h3>
+      <p>Vrtni dnevnik za Android. Vanj zabeležiš opravila na vrtu, od setve in gnojenja do košnje, vsakemu se doda vreme tistega dne. Naslednje leto natančno vidiš, kaj si naredil, s čim in kdaj.</p>
+      <ul class="facts">
+        <li>Deluje brez signala in se sinhronizira med napravami</li>
+        <li>Katalog več kot 140 rastlin in opomniki ob pravem času</li>
+        <li>Tendask+ doda lunin koledar za načrtovanje setve</li>
+        <li>Brezplačen, brez oglasov, v slovenščini, angleščini in nemščini</li>
+      </ul>
+      <span class="more">Obišči tendask.com →</span>
+    </div>
+  
+    <div class="phone"><img src="/img/tendask-plus-sl.webp" alt="Tendask+: lunin koledar v aplikaciji" width="240" height="480" loading="lazy"></div>
+  </a>
+</div></section>
+
 <section id="vprasanja"><div class="wrap">
   <div class="label">Pogosta vprašanja</div>
   <h2 class="title">Pogosta vprašanja</h2>
   <div class="faq">
-    <details class="qa"><summary>Kaj je Spletna koda?</summary><p>Spletna koda je samostojna razvojna praksa Gorazda Veseliča, višjega full-stack / DevOps inženirja z več kot 20 leti izkušenj. Ukvarja se z backend arhitekturo, API in B2B integracijami ter oblačno infrastrukturo.</p></details>
     <details class="qa"><summary>Ali lahko povežete naš sistem z zunanjimi sistemi?</summary><p>Da. Načrtujem in razvijam REST API-je, B2B povezave z zunanjimi sistemi (npr. ERP, spletne trgovine, dobavitelji) in mikrostoritve, ki avtomatizirajo poslovne procese in odpravijo ročno prepisovanje podatkov.</p></details>
     <details class="qa"><summary>Ali pomagate pri prehodu v oblak in DevOps?</summary><p>Da. Postavim in vzdržujem infrastrukturo na AWS, aplikacije zapakiram v Docker in jih poganjam na Kubernetesu, infrastrukturo opišem kot kodo s Terraformom ter uvedem CI/CD za avtomatske in ponovljive objave.</p></details>
     <details class="qa"><summary>S katerimi tehnologijami delate?</summary><p>Backend: PHP, Laravel, MySQL, Redis in REST API. Infrastruktura: Docker, Kubernetes, AWS, Terraform, CI/CD in Linux. Frontend: Vue in Next.js.</p></details>
     <details class="qa"><summary>Ali prevzamete tudi obstoječo aplikacijo v vzdrževanje?</summary><p>Da. Prevzamem obstoječe Laravel/PHP aplikacije, optimiziram počasne podatkovne baze, uredim stabilno gostovanje in skrbim za tekoče vzdrževanje.</p></details>
+    <details class="qa"><summary>Ali imate lastne projekte?</summary><p>Da. Razvil sem Tendask (tendask.com), brezplačen vrtni dnevnik za Android z beleženjem opravil, vremenom, opomniki in sinhronizacijo med napravami. Na voljo je na Google Play.</p></details>
     <details class="qa"><summary>Kako začnemo sodelovanje?</summary><p>Pišite na gorazd@spletnakoda.si in na kratko opišite projekt ali težavo. Komuniciram v slovenščini in angleščini.</p></details>
   </div>
 </div></section>
@@ -280,7 +325,7 @@
   <a href="mailto:gorazd@spletnakoda.si" class="email">gorazd@spletnakoda.si</a>
 </div></section>
 
-<footer><div class="wrap">© 2026 Spletna koda — Gorazd Veselič · Inovativne spletne rešitve</div></footer>
+<footer><div class="wrap">© 2026 Spletna koda — Gorazd Veselič · Inovativne spletne rešitve · <a href="https://www.linkedin.com/in/gorazd-veseli%C4%8D/" target="_blank" rel="noopener me">LinkedIn</a> · <a href="https://github.com/GorazdVeselic" target="_blank" rel="noopener me">GitHub</a></div></footer>
 
 </body>
 </html>
